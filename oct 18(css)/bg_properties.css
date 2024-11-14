@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hero{
+    /* vh means view height means acc to view port */
+    /* generally we use height in only hero section */
+    height: 100vh;
+    /* bg repeat no repeat is always permanent */
+    background-image: url("https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+background-repeat: no-repeat;
+/* bg position:(along x axis  along y axis); */
+background-position: center center;
+/* colver means to cover the whole spce */
+background-size:cover;
+background-attachment:scroll;
+
+
+}

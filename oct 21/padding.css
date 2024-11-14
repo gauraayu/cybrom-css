@@ -1,0 +1,18 @@
+.box{
+    width:100px;
+    height:100px;
+    border:10px solid red;
+    /* padding all sides */
+    padding: 10px;
+    /* padding is space btw the txt  and the border*/
+
+    /* top/bottom   left/right*/
+     padding: 10px 50px ;
+    /* padding top right bottom left */
+    padding: 10px 30px  60px  80px;
+    padding-top: 20px;
+    padding-right: 40px;
+    /* if we want space btw 2 element we use margin */
+  /* margin is space around the element */
+  
+}

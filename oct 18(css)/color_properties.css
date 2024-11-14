@@ -1,0 +1,31 @@
+/* for using properties */
+/*  bg color can also be given as rgb=red blue green  */
+.main{
+    background-color: rgb(10,20,36);
+
+/* there is also a term rgba    
+       a is for alpha alpha is used to make the colour light or dark */
+background-color: rgba(10,20,80, 0.5);
+
+background-color: #ff0000;
+font-size: 60px;
+font-style: italic;
+text-decoration: underline;
+font-family:'Times New Roman', Times, serif ;
+text-align: center;
+/* types of text align
+a. left
+b. right
+c. justify
+d. center */
+}
+
+p{
+    text-align: justify;
+    background-color: blueviolet;
+    letter-spacing: 5px;
+    line-height: 30px;
+}
+
+
+

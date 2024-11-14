@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* shorthand css
+means decreasing the code */
+.hero
+{
+    /* for using multiple codes in one line */
+    height: 100vh;
+    background: url('/pexels-photo-291528.jpeg') no-repeat center center/cover;
+    text-align: center;
+}
+.hero h1,
+.hero p{
+    color: beige;
+}
+.hero h1{
+font-size: 60px;
+
+}
+.hero p{
+    font-size: 50px;
+}
+.btn{
+   
+    background-color: purple;
+    border: black;
+    font-size: 50px;
+    text-decoration:none;
+    font-weight: 200;
+   
+}

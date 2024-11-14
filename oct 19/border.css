@@ -1,0 +1,37 @@
+/* border properties */
+
+
+/* border style are of 3 types
+solid
+slashed
+dotted */
+.main{
+    background-color: black;
+    color: antiquewhite;
+    height: 70px;
+    border-width: 10px;
+   border-style: solid;
+   border-color: blueviolet;
+   border-top: 20px dashed orchid ;
+   border-left: 30px dotted grey;
+   /* shorthand */
+   /* border: 10px solid blueviolet; */
+
+
+   /* to make the border corners round we use border radius*/
+   border-radius: 50px;
+   /* to make curve only one side */
+   border-top-left-radius: 30px;
+
+}
+ /* to make a border completelety circular 
+ we make width and height 100px and border radius 50% 
+ we can also use this to make image circular*/
+ .box{
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    /* to make border only one sidee */
+   
+    border-radius: 50%;
+ }

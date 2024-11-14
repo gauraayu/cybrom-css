@@ -1,0 +1,53 @@
+.parent{
+    height: 500px;
+    display: flex;
+    /* by default flex directn=row */
+    /* main axis works acc to flex directn and cross axis is 
+    perpendicular to main axis */
+    /* jis dretn m flex usi directn m main axis */
+    /* cross axis is perpendicular to main axis */
+   flex-direction: row;
+   /* justified content always works in direct of main axis */
+   /* justify is the content */
+   justify-content: center;
+   /* types of justified content: 
+   flex-start
+   flex-end
+   center
+   space-around
+   space-between
+    */
+
+
+    /* flex-wraap by default is nowrap */
+    /* wrap means to adjust acc to screen size */
+    flex-wrap:wrap ;
+    align-items: center;
+   background-color: blue;
+   
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(98, 154, 157);
+    color: black;
+    margin: 10px;
+    font-size: 60px;
+    font-style: italic;
+}
+.box3{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+.child{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(157, 98, 151);
+    color: black;
+    margin: 10px;
+    font-size: 60px;
+    font-style: italic;
+}
